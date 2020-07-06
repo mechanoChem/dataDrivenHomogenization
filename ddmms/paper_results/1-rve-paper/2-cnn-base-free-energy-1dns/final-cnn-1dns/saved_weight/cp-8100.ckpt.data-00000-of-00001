@@ -1,0 +1,88 @@
+ò•"„){"class_name": "Sequential", "config": {"layers": [{"class_name": "Conv2D", "config": {"activation": "relu", "activity_regularizer": null, "batch_input_shape": [null, 61, 61, 1], "bias_constraint": null, "bias_initializer": {"class_name": "Zeros", "config": {"dtype": "float32"}}, "bias_regularizer": null, "data_format": "channels_last", "dilation_rate": [1, 1], "dtype": "float32", "filters": 2, "kernel_constraint": null, "kernel_initializer": {"class_name": "GlorotUniform", "config": {"dtype": "float32", "seed": null}}, "kernel_regularizer": null, "kernel_size": [3, 3], "name": "input", "padding": "same", "strides": [1, 1], "trainable": true, "use_bias": true}}, {"class_name": "MaxPooling2D", "config": {"data_format": "channels_last", "dtype": "float32", "name": "MaxPooling2D_2_2-1", "padding": "same", "pool_size": [2, 2], "strides": [2, 2], "trainable": true}}, {"class_name": "Conv2D", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Zeros", "config": {"dtype": "float32"}}, "bias_regularizer": null, "data_format": "channels_last", "dilation_rate": [1, 1], "dtype": "float32", "filters": 3, "kernel_constraint": null, "kernel_initializer": {"class_name": "GlorotUniform", "config": {"dtype": "float32", "seed": null}}, "kernel_regularizer": null, "kernel_size": [3, 3], "name": "Conv2D_3_3-2", "padding": "same", "strides": [1, 1], "trainable": true, "use_bias": true}}, {"class_name": "MaxPooling2D", "config": {"data_format": "channels_last", "dtype": "float32", "name": "MaxPooling2D_2_2-3", "padding": "same", "pool_size": [2, 2], "strides": [2, 2], "trainable": true}}, {"class_name": "Conv2D", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Zeros", "config": {"dtype": "float32"}}, "bias_regularizer": null, "data_format": "channels_last", "dilation_rate": [1, 1], "dtype": "float32", "filters": 5, "kernel_constraint": null, "kernel_initializer": {"class_name": "GlorotUniform", "config": {"dtype": "float32", "seed": null}}, "kernel_regularizer": null, "kernel_size": [3, 3], "name": "Conv2D_3_3-4", "padding": "same", "strides": [1, 1], "trainable": true, "use_bias": true}}, {"class_name": "MaxPooling2D", "config": {"data_format": "channels_last", "dtype": "float32", "name": "MaxPooling2D_2_2-5", "padding": "same", "pool_size": [2, 2], "strides": [2, 2], "trainable": true}}, {"class_name": "Conv2D", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Zeros", "config": {"dtype": "float32"}}, "bias_regularizer": null, "data_format": "channels_last", "dilation_rate": [1, 1], "dtype": "float32", "filters": 6, "kernel_constraint": null, "kernel_initializer": {"class_name": "GlorotUniform", "config": {"dtype": "float32", "seed": null}}, "kernel_regularizer": null, "kernel_size": [3, 3], "name": "Conv2D_3_3-6", "padding": "same", "strides": [1, 1], "trainable": true, "use_bias": true}}, {"class_name": "MaxPooling2D", "config": {"data_format": "channels_last", "dtype": "float32", "name": "MaxPooling2D_2_2-7", "padding": "same", "pool_size": [2, 2], "strides": [2, 2], "trainable": true}}, {"class_name": "Flatten", "config": {"data_format": "channels_last", "dtype": "float32", "name": "Flatten-8", "trainable": true}}, {"class_name": "Dense", "config": {"activation": "linear", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Zeros", "config": {"dtype": "float32"}}, "bias_regularizer": null, "dtype": "float32", "kernel_constraint": null, "kernel_initializer": {"class_name": "GlorotUniform", "config": {"dtype": "float32", "seed": null}}, "kernel_regularizer": null, "name": "output", "trainable": true, "units": 1, "use_bias": true}}], "name": "sequential"}}å^D{"class_name": "InputLayer", "config": {"batch_input_shape": [null, 61, 61, 1], "dtype": "float32", "name": "input_input", "sparse": false}}Í(P»{"class_name": "Conv2D", "config": {"activation": "relu", "activity_regularizer": null, "batch_input_shape": [null, 61, 61, 1], "bias_constraint": null, "bias_initializer": {"class_name": "Zeros", "config": {"dtype": "float32"}}, "bias_regularizer": null, "data_format": "channels_last", "dilation_rate": [1, 1], "dtype": "float32", "filters": 2, "kernel_constraint": null, "kernel_initializer": {"class_name": "GlorotUniform", "config": {"dtype": "float32", "seed": null}}, "kernel_regularizer": null, "kernel_size": [3, 3], "name": "input", "padding": "same", "strides": [1, 1], "trainable": true, "use_bias": true}} ]€t›{"class_name": "MaxPooling2D", "config": {"data_format": "channels_last", "dtype": "float32", "name": "MaxPooling2D_2_2-1", "padding": "same", "pool_size": [2, 2], "strides": [2, 2], "trainable": true}}…7˙i¡{"class_name": "Conv2D", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Zeros", "config": {"dtype": "float32"}}, "bias_regularizer": null, "data_format": "channels_last", "dilation_rate": [1, 1], "dtype": "float32", "filters": 3, "kernel_constraint": null, "kernel_initializer": {"class_name": "GlorotUniform", "config": {"dtype": "float32", "seed": null}}, "kernel_regularizer": null, "kernel_size": [3, 3], "name": "Conv2D_3_3-2", "padding": "same", "strides": [1, 1], "trainable": true, "use_bias": true}} ]€t›{"class_name": "MaxPooling2D", "config": {"data_format": "channels_last", "dtype": "float32", "name": "MaxPooling2D_2_2-3", "padding": "same", "pool_size": [2, 2], "strides": [2, 2], "trainable": true}}…7˙i¡{"class_name": "Conv2D", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Zeros", "config": {"dtype": "float32"}}, "bias_regularizer": null, "data_format": "channels_last", "dilation_rate": [1, 1], "dtype": "float32", "filters": 5, "kernel_constraint": null, "kernel_initializer": {"class_name": "GlorotUniform", "config": {"dtype": "float32", "seed": null}}, "kernel_regularizer": null, "kernel_size": [3, 3], "name": "Conv2D_3_3-4", "padding": "same", "strides": [1, 1], "trainable": true, "use_bias": true}} ]€t›{"class_name": "MaxPooling2D", "config": {"data_format": "channels_last", "dtype": "float32", "name": "MaxPooling2D_2_2-5", "padding": "same", "pool_size": [2, 2], "strides": [2, 2], "trainable": true}}…7˙i¡{"class_name": "Conv2D", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Zeros", "config": {"dtype": "float32"}}, "bias_regularizer": null, "data_format": "channels_last", "dilation_rate": [1, 1], "dtype": "float32", "filters": 6, "kernel_constraint": null, "kernel_initializer": {"class_name": "GlorotUniform", "config": {"dtype": "float32", "seed": null}}, "kernel_regularizer": null, "kernel_size": [3, 3], "name": "Conv2D_3_3-6", "padding": "same", "strides": [1, 1], "trainable": true, "use_bias": true}} ]€t›{"class_name": "MaxPooling2D", "config": {"data_format": "channels_last", "dtype": "float32", "name": "MaxPooling2D_2_2-7", "padding": "same", "pool_size": [2, 2], "strides": [2, 2], "trainable": true}}Å‹yÛ{"class_name": "Flatten", "config": {"data_format": "channels_last", "dtype": "float32", "name": "Flatten-8", "trainable": true}}Ãdl›{"class_name": "Dense", "config": {"activation": "linear", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Zeros", "config": {"dtype": "float32"}}, "bias_regularizer": null, "dtype": "float32", "kernel_constraint": null, "kernel_initializer": {"class_name": "GlorotUniform", "config": {"dtype": "float32", "seed": null}}, "kernel_regularizer": null, "name": "output", "trainable": true, "units": 1, "use_bias": true}}òÑÆæ3X‡æl €=˘t´æµüV<∞ºáæ„˙>qK^>§å>ÎúÆæ÷ﬁ>L◊ΩÂ˝>OR">3!jæYä æ¢Áæé∫»>00∫⁄ƒ=V˘Ü>e£ºæ·ú¶æh∂ΩÕE>æMß>%C:æº∆æ.∞é=≤∞ΩÜ3æ˙ñy<¡ÅvΩ¢y†>„i>≈ujæÓa¯æN}»>ìµ¶>¶˛9>>aØ>,Â~æ‘X—=–u7>‚M=?/>˚õã>ÿ4È=èM≥æ"Ê >ÿΩ>S h>fÀ#=“QÑ>ø√ =ô;bæÀ:e>úªeΩlÀïæ5‘F=v±Ææ§∆>„⁄‚Ωmj©æêâΩuçæVÄÈº”ç=ÙX¨ΩΩlbæg›PæR‡õæµf<Ÿj?>;π0<%'=Ùf=6ã>ÍCN>⁄ætæIyO=ì›á>°g>hÜΩ∫∏>á&*>Íí=ìtæ¯ıëæî6>XDâºèM&æåH ºL"&>uòΩ∑óÃ=¬Ö`>Ë»JæE3≈æ4úßæÔ´óæ¯úçæ)-¥=*)æ?íû>ÉFj=˝Àﬁ=álâΩœÛI>ı>"‚#Ω≠±æxIˆ=7¸€æJÃÄ>l”>*>	æ‘iûæÿ>¯FæÑìÁΩç&âæªm=ø≠∏=è™>œÌ‹=óÿè>´»øø6Øæ≥1>Yº0£•ºﬁÑΩ¡ [Ω1@Ú=ƒ√æ•íΩØ]Üæ">”9„=≤
+<ûë"<ı∞ÅΩÂå=ﬁÚ=åjê=ﬁ¢FΩp›º·-÷Ω∏Fz><{æqøÕæ'£Ï=Ñ0◊Ω%ÕÏªìæ≤ÉæE#€ΩPÂQæ\Íô=˜ÉøΩs(æyS(æPsY>%·„="ÒùΩ9N=DíΩˆwºñ˛æsΩñ>œëî>TΩt•æZÑv>kúY>¥¯!>MtΩ`ñæ"è>U˘ï>¡¿.æÏ#>˛Rô=‰ΩZGiæÄñüΩ¶òû>÷O Ω˘ø>·0áΩ^4ºLL—æùáæìΩ> ∫>Z∫@>¯ˆ≤æÕo,æ~˚£=¬gûΩù:å=˘v8ø·hbæ
+$ >á/4æ€π’=ëÍ∫>61/>ø{°ªœNK>)Äùº´ Â=ÄH
+=¨a=ïîú<ô∆„<Œ⁄>È–Ó=çV›>Z¨=æcÕåæàÆ+>©é>_ =‰¶l>:◊$>≤õ<≠yî>|ÑdΩœÄ>
+¿“º·A'=/ûï>7øiæo#∆Ω¥Ò=äµ{ΩsëX>V6ºªÃæ Pm>∑„Ô=©l>‚5ÑæÉ^öæ*ùƒΩ•¬<ˇìø“kéΩÕ˜cΩÕbV>ÿ<ˇ>)	K>˛ΩÙ	nΩ’æºÈ…N>/ﬂΩ˛Ò3ΩM6>äg|=]≠$=6⁄¥=Á¶L>6÷õ=…\\>ôµFæv]é={Rª⁄J¬=„dÅ=Ë >EA>!´„Ω£PΩ÷pˇ=fæóèΩÅ«Y>YÜæñ€æÃøøi¢ä>ûLΩ>á1ΩÃü>W5
+æ—¨rΩ©ó1ΩÉ˚“Ω *√=˝*¡Ω˝©>R*q>øó>Û#Ræ∆$æà,•>çUâ;Ê|Å>v¬=» >5•ºç’É>-∞Ó;◊›¶æg&>\	¥>Ë\ﬂ>Ÿ^∞<}ò˛ª F`=OÉΩ˝õ.æ˝Å>X¸œ=°Bæèt“=j⁄Ω'Df>'ıPΩÿΩO—O>—ï=Nêlæ˙ÂÉ>ÊÀëºq˜{Ω9˙ÙΩ√€≠>Ÿ%æ¸9æe5>oêüæKn>n>@_ºY`æ>˛Ë–æXö'>&Æ>Ø·EΩ&â=€Â°Ω=ÁßH>pòΩüæ~ñ>'÷<UÒØΩ˙lGæ< óæ·è≠Ωu§<©ö>tƒÅær∏=2"Dæë r>¢ã>√ÅæïΩó‡»=ìa0æ}b¿Ωv∑ì>ˇ!«<ÅâŸº¥†ø>Ìâ≈>ˆÓΩZßñ>{Äª€æ!.Ω0"Ωˇ+9º…í>≠Î∫='“Ä=ÖgæÈy-æπ1=î≠e>›˚˝Ωìa´ΩCJ<o%>™.¨=√u#Ω1úÍΩãWg>—Œé=ñ¡æñ˙†æ`ë'=ÔØæ∫»;a›ä<B]øΩ:=´ËW>âU>Ú˚w>|ÊΩ='«i=!∏8>™Òº8Y>
+y;>R[Pæ3$ˆΩ˝æj(ìΩyuæ’√ñ>^Xæ;Ax
+?§æÀœ(æW8Ä>Of§>pPÊ=![K>çJù=J≈y>û^ææ¥?>2ªqΩ@∫Û=
+π÷=∑Ü
+=¯n9{Ï*æw'æóØΩ|FîΩî÷OΩ∑iñæœQu>j˙Ωe™íºAFæπ9Üª◊”GæëI{>‚∫)>
+ÔΩsÈF=ƒ_)æjüÊΩ<¯ÂΩ§ømΩ”ó>æS\æÚÖ±<Pé<î˚d>≤°&øzxzæ˚¯CæßÔ(æò—æ,∫W<,"æÖëôæ^_t>{’æ‘≥ΩswËºNgNæ°PæY÷¿<	UΩjÈv>C2æt®ñ=ów=àê8æ<≤nΩhÍ-æÉÆ<ælW}æBú	æ{4=:f∆=’ñ=ÉÎ‘ºM=»Í⁄ºs>'Ò¨Ω›¯=ΩÜéÅ>…à?›÷@>∂íUΩ($;æﬁ`>-¸á>≠§\æòÑÜækæπÃ7æ{-áæ…idΩk‡iæÌ%è>ﬁΩ‚0ÖæôΩ`≤tæ¢Åyºm;–>sOæU¿>∑	æ‚ãB<¯Ï˙>Q#æªëF<Îsæ›lÏº`Öîºt±¢æÄ*¿Ω˝PÉ<L@SΩrﬁAæÏ]>s™âæå∞Ë=)≠v>‰—1ΩGÒ4æ`æ® ôæYÃµªÉbÄæÕº~</)™=5óI=•"ä>,mΩ û=ŒÖ”=ÌèªUæ¥°®æW:õæ˙£Tæ}ä”<Ω'>·Ωe≈iΩ®¥©Ω∑ÓN>˘A>Ié=¯◊º>Ÿ?œ= Iæ#‰=â∂zæp€p=@<√9èΩ>ßﬂ•;ÕÖ…ΩL_IæÛ÷æ>Ë>ÄπΩB€>›ÕNæV’k=dÚ)æ«ﬂ>‰n >9âæ§êÆ=©|Ω:˘a>h#äΩ|FΩ~ÚΩ◊¿BßË
+…
+layer-0
+layer_with_weights-0
+layer-1
+layer-2
+layer_with_weights-1
+layer-3
+layer-4
+layer_with_weights-2
+layer-5
+layer-6
+layer_with_weights-3
+layer-7
+	layer-8
+
+layer-9
+layer_with_weights-4
+layer-105
+OBJECT_CONFIG_JSON/.ATTRIBUTES/OBJECT_CONFIG_JSON
+><
+OBJECT_CONFIG_JSON&layer-0/.ATTRIBUTES/OBJECT_CONFIG_JSON
+a
+
+kernel
+biasI
+OBJECT_CONFIG_JSON3layer_with_weights-0/.ATTRIBUTES/OBJECT_CONFIG_JSON
+><
+OBJECT_CONFIG_JSON&layer-2/.ATTRIBUTES/OBJECT_CONFIG_JSON
+a
+
+kernel
+biasI
+OBJECT_CONFIG_JSON3layer_with_weights-1/.ATTRIBUTES/OBJECT_CONFIG_JSON
+><
+OBJECT_CONFIG_JSON&layer-4/.ATTRIBUTES/OBJECT_CONFIG_JSON
+a
+
+kernel
+biasI
+OBJECT_CONFIG_JSON3layer_with_weights-2/.ATTRIBUTES/OBJECT_CONFIG_JSON
+><
+OBJECT_CONFIG_JSON&layer-6/.ATTRIBUTES/OBJECT_CONFIG_JSON
+a
+
+kernel
+biasI
+OBJECT_CONFIG_JSON3layer_with_weights-3/.ATTRIBUTES/OBJECT_CONFIG_JSON
+><
+OBJECT_CONFIG_JSON&layer-8/.ATTRIBUTES/OBJECT_CONFIG_JSON
+><
+OBJECT_CONFIG_JSON&layer-9/.ATTRIBUTES/OBJECT_CONFIG_JSON
+a
+
+kernel
+biasI
+OBJECT_CONFIG_JSON3layer_with_weights-4/.ATTRIBUTES/OBJECT_CONFIG_JSON
+XV
+VARIABLE_VALUEinput/kernel6layer_with_weights-0/kernel/.ATTRIBUTES/VARIABLE_VALUE
+TR
+VARIABLE_VALUE
+input/bias4layer_with_weights-0/bias/.ATTRIBUTES/VARIABLE_VALUE
+_]
+VARIABLE_VALUEConv2D_3_3-2/kernel6layer_with_weights-1/kernel/.ATTRIBUTES/VARIABLE_VALUE
+[Y
+VARIABLE_VALUEConv2D_3_3-2/bias4layer_with_weights-1/bias/.ATTRIBUTES/VARIABLE_VALUE
+_]
+VARIABLE_VALUEConv2D_3_3-4/kernel6layer_with_weights-2/kernel/.ATTRIBUTES/VARIABLE_VALUE
+[Y
+VARIABLE_VALUEConv2D_3_3-4/bias4layer_with_weights-2/bias/.ATTRIBUTES/VARIABLE_VALUE
+_]
+VARIABLE_VALUEConv2D_3_3-6/kernel6layer_with_weights-3/kernel/.ATTRIBUTES/VARIABLE_VALUE
+[Y
+VARIABLE_VALUEConv2D_3_3-6/bias4layer_with_weights-3/bias/.ATTRIBUTES/VARIABLE_VALUE
+YW
+VARIABLE_VALUEoutput/kernel6layer_with_weights-4/kernel/.ATTRIBUTES/VARIABLE_VALUE
+US
+VARIABLE_VALUEoutput/bias4layer_with_weights-4/bias/.ATTRIBUTES/VARIABLE_VALUE
